@@ -1,0 +1,29 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Generated validation reports
+validation_reports/*.txt
+
+# Testing and coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Environment secrets
+.env
+.env.*
+!.env.example
